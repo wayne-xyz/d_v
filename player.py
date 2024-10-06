@@ -72,8 +72,8 @@ if __name__ == "__main__":
     # when start the python player.py, it will need two parameters, model_path and video_path
     # if not, it will use the default model and video
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model_path', type=str, default='models/6_c_best.pt')
-    parser.add_argument('--video_path', type=str, default='video/V_D.mp4')
+    parser.add_argument('--model_path', type=str, default='models/reduced_4c_best.pt')
+    parser.add_argument('--video_path', type=str, default='video/v_d3.mp4')
     args = parser.parse_args()
     main(args.model_path, args.video_path)
 
